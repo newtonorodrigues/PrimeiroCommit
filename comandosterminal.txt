@@ -10,6 +10,8 @@ cd
 
 
 GIT:
+git config --global user.email "newtonorodrigues@hotmail.com"
+git config --global user.name "Newton Rodrigues"
 
 git init
 #inicia o repositorio local
@@ -18,9 +20,11 @@ git add .
 #adiciona os arquivos ao repositorio local (posso colocar arquivo por arquivo ou usr o "." para colocar todos de uma vez)
 
 git commit -m "detalhes do commit"
+#registra os arquivos no repositorio local e adiciona comentarios da mudanca
 
 git branch -M main
 
-git remote add origin https://github.com/newtonorodrigues/nomedoprojeto.git
+git remote add origin git@github.com:newtonorodrigues/PrimeiroCommit.git
+#envia para o repositorio github os arquivos do repositorio local
 
 git push -u origin main
