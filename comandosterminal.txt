@@ -6,6 +6,13 @@ README.md
 .gitignore
 # descreva dentro deste arquivo os arquivos que nao queremos jogar para o github e divulgar
 
+GITHUB:
+Criar repositorio remoto
+# para conectar com repositorio local
+
+Gist
+# opcao de divulgacao de pedacos de codigo
+
 COMANDOS:
 pwd 
 #indica qual pasta estamos no momento
