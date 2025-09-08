@@ -23,9 +23,28 @@ git commit -m "detalhes do commit"
 #registra os arquivos no repositorio local e adiciona comentarios da mudanca
 
 git branch -M main
+#renomeia a branch atual para "main"
 
 git remote add origin git@github.com:newtonorodrigues/PrimeiroCommit.git
 #cria conexao com o repositorio github remoto
 
 git push -u origin main
 #envia os arquivos para o repositorio conectado
+
+CLONAR PROJETO NO GITHUB:
+#1 pode baixar a pasta zipada
+#2 pode usar o clone:
+    git clone URL do PROJETO
+    fazer isso no CD onde quer que a pasta seja criada! ou criar a pasta antes e rodar o terminal no local onde quer a pasta seja criada
+
+git status
+#mostra quais arquivos foram modificados e seja estamo em commit
+
+git log
+#mostra todos os commits que foram feitos!
+
+git remote
+#mostra quais sao os repositorios remotos adicionados
+
+git pull origin main
+#upload do projeto com as modificacoes feitas
