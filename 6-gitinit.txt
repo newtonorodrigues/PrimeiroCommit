@@ -1,0 +1,10 @@
+git init
+
+# inicia / reinicia / cria repositorio no github
+
+git add -A
+
+#prepara arquivos para serem incluidos no commit (-A adiciona todos: novos, alterados e deletados)
+
+git commit -m "Texto explica a mudanca"
+
