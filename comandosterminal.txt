@@ -25,6 +25,7 @@ git commit -m "detalhes do commit"
 git branch -M main
 
 git remote add origin git@github.com:newtonorodrigues/PrimeiroCommit.git
-#envia para o repositorio github os arquivos do repositorio local
+#cria conexao com o repositorio github remoto
 
 git push -u origin main
+#envia os arquivos para o repositorio conectado
