@@ -1,4 +1,12 @@
 GERAL:
+README.md
+# github reconhece e replica arquivo readme na apresentacao do projeto
+# pode utilizar html para ficar bonito na descricao
+
+.gitignore
+# descreva dentro deste arquivo os arquivos que nao queremos jogar para o github e divulgar
+
+COMANDOS:
 pwd 
 #indica qual pasta estamos no momento
 
@@ -48,3 +56,14 @@ git remote
 
 git pull origin main
 #upload do projeto com as modificacoes feitas
+
+git revert IDCOMMIT
+#volta para uma versao especifica do commit (ID do commit puxa pelo git log)
+
+git reset --hard IDCOMMIT
+#Exclui o commit do seu repositorio local- TEM QUE PASSAR O ID DO COMMIT ANTERIOR, DA VERSAO QUE QUEREMOS VOLTAR
+
+git commit --amend -m "mensagem ajustada"
+#adita a mensagem do commit
+
+
