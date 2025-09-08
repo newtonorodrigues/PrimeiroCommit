@@ -1,0 +1,26 @@
+GERAL:
+pwd 
+#indica qual pasta estamos no momento
+
+nome --version 
+#indica qual versao da aplicacao
+
+cd
+#leva para uma nova pasta
+
+
+GIT:
+
+git init
+#inicia o repositorio local
+
+git add .
+#adiciona os arquivos ao repositorio local (posso colocar arquivo por arquivo ou usr o "." para colocar todos de uma vez)
+
+git commit -m "detalhes do commit"
+
+git branch -M main
+
+git remote add origin https://github.com/newtonorodrigues/nomedoprojeto.git
+
+git push -u origin main
