@@ -8,3 +8,10 @@ git add -A
 
 git commit -m "Texto explica a mudanca"
 
+#faz o commit e explica a mudanca
+
+git remote add origin git@github.com:newtonorodrigues/nome_do_repositorio.git
+
+#registra um repositorio remoto
+
+git push -u
